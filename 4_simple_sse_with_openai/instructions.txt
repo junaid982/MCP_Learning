@@ -1,0 +1,29 @@
+
+
+Python Version 3.11
+
+
+# 1 - Create Virtualenv
+
+>>> python -m venv env-mcp-server
+
+# Activate Enviroment 
+
+For Windows System  
+>>> env-mcp-server\Scripts\activate
+
+For Linux
+>>> source env-mcp-server/bin/activate
+
+
+
+# 2 - Install requirements.txt
+
+>>> pip install -r requirements.txt
+
+
+Terminal 1
+>>> python server.py
+
+Terminal 2
+>>> python client.py
